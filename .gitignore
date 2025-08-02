@@ -1,5 +1,6 @@
 ### Compiled artifacts & caches ###
 __pycache__/          # Python bytecode cache directory
+**/__pycache__/
 *.py[cod]             # Ignore .pyc, .pyo, .pyd files
 *$py.class            # Jython compiled files
 
