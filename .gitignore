@@ -1,0 +1,65 @@
+### Compiled artifacts & caches ###
+__pycache__/          # Python bytecode cache directory
+*.py[cod]             # Ignore .pyc, .pyo, .pyd files
+*$py.class            # Jython compiled files
+
+### Virtual environments & env variables ###
+venv/                 # Common virtual env directory
+.env                  # Sensitive env file (passwords/API keys)
+.env.*                # All env config files
+.venv/                # Alternative virtual env name
+env/                  # Generic env directory
+
+### Build distributions & package management ###
+build/                # Temporary build artifacts
+dist/                 # Distribution packages
+*.egg-info/           # Package metadata directory
+*.egg                 # Legacy package format
+.python-version       # pyenv version file (local config)
+
+### Testing & coverage reports ###
+.coverage             # Coverage data file
+.coverage.*           # Temporary coverage files
+htmlcov/              # HTML coverage reports
+.pytest_cache/        # Pytest cache directory
+.nox/                 # Nox test outputs
+.tox/                 # Tox virtualenvs
+
+### IDE & editor configurations ###
+# VS Code
+.vscode/              # Workspace settings (avoid sharing)
+*.code-workspace      # Workspace config file
+
+# PyCharm/IntelliJ
+.idea/                # IDE project settings
+*.iml                 # Project module file
+*.ipr                 # Project settings
+*.iws                 # Workspace settings
+
+# Jupyter Notebook
+.ipynb_checkpoints    # Notebook autosave directories
+
+### Logs & temporary files ###
+*.log                 # Application logs
+*.tmp                 # Temporary files
+*.bak                 # Backup files
+
+### OS metadata ###
+# macOS
+.DS_Store             # Folder attributes cache
+.AppleDouble          # macOS resource fork
+.LSOverride           # Customized icon data
+
+# Windows
+Thumbs.db             # Thumbnail cache
+ehthumbs*.db          # Explorer thumbnail DB
+
+### Project-specific exclusions ###
+# Custom data/output directories (add as needed)
+data/                 # Large datasets (example)
+output/               # Program output directory
+models/               # Trained model files
+
+# Sensitive config files
+config_local.py       # Local development config
+secrets.json          # Secret keys file
